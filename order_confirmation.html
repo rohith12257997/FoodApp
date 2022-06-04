@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Order confirmation - Last-Stop</title>
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <header class="navbar">
+      <h1 class="col-1-4 logo text-left">Last-Stop</h1>
+      <div class="toggle-show">&#9776;</div>
+      <nav class="col-3-4">
+        <ul class="nav-container text-center">
+          <li><a href="user_menus.html">Menu</a></li>
+          <li><a href="user_order_history.html">Orders</a></li>
+          <li class="user"><a href="#">Fawcett</a></li>
+          <li><a href="index.html">Logout</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main class="bg-light order-details-main">
+		<section class="card order-details text-center">
+			<h2>Order Details</h2>
+			<div class="meal-details text-center">
+				<p>Vegetable Soup</p>
+				<p>
+					<select name="quantity" id="">
+						Select quantity
+						<option value="1">1</option>
+						<option value="2">2</option>
+					</select>
+				 x1</p>
+				<p>&#x24 2000</p>
+			</div>
+			<hr />
+			<div class="meal-details">
+				<p>Total</p>
+				<p id="total">&#x24 2000</p>
+			</div>
+			<div>
+				<button class="btn btn-danger btn-intro-lg">Confirm Order</button>
+			</div>
+		</section>
+	</main>
+  <footer class="text-center">
+    <p>&copy; Last-Stop <span id="year"></span>.
+    </p>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>
